@@ -80,21 +80,12 @@ kaggle datasets download -d fedesoriano/air-quality-data-set
 
 ### Execution
 ```bash
-python air_quality.py
+jupyter notebook air-quality-model-comparison.ipynb
 ```
 
-## 📁 Project Structure
-```
-air-quality-ml-comparison/
-├── air_quality.py                    # Main analysis code
-├── data/
-│   └── AirQuality.csv               # Raw data
-├── results/
-│   ├── correlation_heatmap.png      # Correlation matrix
-│   ├── model_comparison.png         # Model comparison
-│   ├── feature_importance.png       # Feature importance ranking
-│   └── temporal_patterns.png        # Time series plots
-└── README.md
+Or if using Jupyter Lab:
+```bash
+jupyter lab air-quality-model-comparison.ipynb
 ```
 
 ## 📈 Technical Details
